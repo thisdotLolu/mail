@@ -1,0 +1,41 @@
+.sidebar_Option{
+    display:flex;
+    align-items:center;
+    height:40px;
+    padding:0 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    color:#198bdf;
+}
+
+.sidebar_Option > p {
+    display: none;
+}
+
+.sidebar_Option > h3{
+    flex:1;
+    /* width:50vw; */
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight:400;
+}
+
+
+.sidebar_Option:hover,
+.sidebarOption--active
+{
+    background-color:#198bdf;
+    color:white; 
+    font-weight: 800 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
